@@ -28,7 +28,6 @@ const getRandomPokemon = async() => {
   const api = new MainClient();
 
   const randomChain = await api.evolution.getEvolutionChainById(Math.random() * 10);
-  return randomChain.chain.evolves_to;
 }
 
 const getPokemon = async () => {

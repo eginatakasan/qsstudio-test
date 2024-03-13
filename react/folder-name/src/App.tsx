@@ -24,7 +24,7 @@ const App = () => {
       
       </div>
       <div tw="flex-1">
-      
+        
       </div>
     </div>
   </div>
